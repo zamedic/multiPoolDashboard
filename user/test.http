@@ -1,0 +1,31 @@
+POST http://localhost:8000/user/
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test"
+ }
+
+###
+
+POST http://localhost:8000/user/auth
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test"
+ }
+
+###
+
+POST http://localhost:8000/user/key
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE1MjM1NjQ3NjAsImlhdCI6MTUyMzU1NzU2MH0.1LmnE6H-gjXbGRP65S1U88zttG4BoXEjL-Bpuql2aAk
+
+
+{
+  "pool": "zerg",
+  "token": "1GNGkYdFqcDiSqRCq7R4Zec9nGbt1yRSGa"
+ }
+
+###

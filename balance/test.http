@@ -1,0 +1,13 @@
+GET http://localhost:8000/balance
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE1MjM2MTY1ODgsImlhdCI6MTUyMzYwOTM4OH0.9p2BS9MCoC-La13ZqN-u56ye64Qko7aEgmamAY8vDpU
+
+###
+
+GET http://localhost:8000/balance/coin/BTC
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE1MjM2MTg5MjAsImlhdCI6MTUyMzYxMTcyMH0.6-zJQqdFIdI9pvJ3ExtIzIHkFB_kozsycL6UIkXqTzU
+
+###
+
+
